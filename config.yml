@@ -4,16 +4,8 @@ graphhopper:
 
   profiles:
     - name: car
-      vehicle: car
-      weighting: fastest
     - name: foot
-      vehicle: foot
-      weighting: fastest
     - name: bike
-      vehicle: bike
-      weighting: fastest
-
-  CH.profiles: car
 
 server:
   application_connectors:
