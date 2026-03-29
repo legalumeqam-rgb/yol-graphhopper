@@ -4,8 +4,14 @@ graphhopper:
 
   profiles:
     - name: car
+      custom_model_files: [car.json]
     - name: foot
+      custom_model_files: [foot.json]
     - name: bike
+      custom_model_files: [bike.json]
+
+  profiles_ch:
+    - profile: car
 
 server:
   application_connectors:
