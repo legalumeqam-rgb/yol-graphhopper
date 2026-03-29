@@ -1,6 +1,7 @@
 graphhopper:
   datareader.file: turkmenistan-latest.osm.pbf
-  graph.location: graph-cache
+  graph.location: /app/graph-cache
+
   profiles:
     - name: car
       vehicle: car
@@ -11,6 +12,8 @@ graphhopper:
     - name: bike
       vehicle: bike
       weighting: fastest
+
+  CH.profiles: car
 
 server:
   application_connectors:
